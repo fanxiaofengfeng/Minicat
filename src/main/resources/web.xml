@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>amber</servlet-name>
+        <servlet-class>server.AmberServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>amber</servlet-name>
+        <url-pattern>/amber</url-pattern>
+    </servlet-mapping>
+</web-app>
